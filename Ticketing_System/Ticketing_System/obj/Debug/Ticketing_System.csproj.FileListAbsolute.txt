@@ -129,7 +129,6 @@ C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_Syste
 C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\obj\Debug\Ticketing_System.csprojAssemblyReference.cache
 C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\obj\Debug\Ticketing_System.Migrations.InitialCreate.resources
 C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\obj\Debug\Ticketing_System.Migrations.Email.resources
 C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\obj\Debug\Ticketing_System.Migrations.Initial.resources
@@ -148,3 +147,5 @@ C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_Syste
 C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\obj\Debug\Ticketing_System.csproj.CopyComplete
 C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\obj\Debug\Ticketing_System.dll
 C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\obj\Debug\Ticketing_System.pdb
+C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\bin\Ticketing_System.dll.CodeAnalysisLog.xml
+C:\Users\Sponster\Source\Repos\Ticketing-System\Ticketing_System\Ticketing_System\bin\Ticketing_System.dll.lastcodeanalysissucceeded

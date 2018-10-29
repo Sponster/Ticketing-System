@@ -361,15 +361,7 @@ namespace Ticketing_System.Controllers
             return (ActionResult)PartialView("_RemoveAccountPartial", linkedAccounts);
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && UserManager != null)
-            {
-                UserManager.Dispose();
-                UserManager = null;
-            }
-            base.Dispose(disposing);
-        }
+        
 
         #region Helpers
         // Used for XSRF protection when adding external logins

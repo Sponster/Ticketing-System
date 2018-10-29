@@ -14,10 +14,10 @@ namespace Ticketing_System.Controllers
     {
         //
         // GET: /Roles/
-        ApplicationDbContext context = new ApplicationDbContext();
+        readonly ApplicationDbContext context = new ApplicationDbContext();
 
        
-        public Boolean isAdminUser()
+        public Boolean IsAdminUser()
         {
             if (User.Identity.IsAuthenticated)
             {

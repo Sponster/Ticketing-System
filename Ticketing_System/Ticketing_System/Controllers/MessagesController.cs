@@ -67,8 +67,10 @@ namespace Ticketing_System.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include="Id,SendDate,Author,State,Content,TicketId")] Messages messages)
         {
-            Tickets ticket = new Tickets();
-            ticket.Id = messages.TicketId;
+            Tickets ticket = new Tickets
+            {
+                Id = messages.TicketId
+            };
             var Selected = db.Tickets.First(e => e.Id == ticket.Id);
             var State = Selected.State;
            
@@ -144,13 +146,6 @@ namespace Ticketing_System.Controllers
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+      
     }
 }
